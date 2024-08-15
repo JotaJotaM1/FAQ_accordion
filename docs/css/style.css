@@ -64,6 +64,14 @@ main {
     cursor: pointer;
     margin: 20px 0;
 }
+
+.question p:hover{
+    color: rgb(202, 30, 202);
+}
+
+.question img{
+    cursor: pointer;
+}
 .answer{
     display: none;
 }
