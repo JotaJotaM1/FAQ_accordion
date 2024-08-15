@@ -79,6 +79,12 @@ main {
     display: block;
 }
 
+footer{
+    font-family: "Work Sans", sans-serif;
+    background-color: var(--light-pink);
+    
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -90,7 +96,7 @@ main {
 
 @media screen and (min-width:800px){
     .cnt-P{
-        background-image: url(/images/background-pattern-desktop.svg);
+        background-image: url(../images/background-pattern-desktop.svg);
     }
 
 }
@@ -98,6 +104,6 @@ main {
 @media screen and (max-width:800px){
 
     .cnt-P{
-        background-image: url(/images/background-pattern-mobile.svg)
+        background-image: url(../images/background-pattern-mobile.svg)
     }
 }
