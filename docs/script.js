@@ -2,9 +2,9 @@ const accord = document.querySelectorAll(".accord")
 
 const checkSigns = (question, answer) => {
     if (answer.classList.contains("active")) {
-        question.children[1].src = "../images/icon-minus.svg";
+        question.children[1].src = "./images/icon-minus.svg";
     } else {
-        question.children[1].src = "../images/icon-plus.svg";
+        question.children[1].src = "./images/icon-plus.svg";
     }
 
 }
